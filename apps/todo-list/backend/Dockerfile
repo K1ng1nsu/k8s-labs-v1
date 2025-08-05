@@ -23,3 +23,4 @@ EXPOSE 8080
 
 # 애플리케이션을 devtools 모드로 실행
 CMD ["./gradlew", "bootRun"]
+####
