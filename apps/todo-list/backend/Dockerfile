@@ -1,7 +1,7 @@
 FROM openjdk:17-jdk-slim
 
 WORKDIR /app
-#
+
 # Gradle Wrapper 파일 복사
 COPY gradlew /app/gradlew
 COPY gradle /app/gradle
